@@ -1,0 +1,9 @@
+App build-handling requests:Router
+
+var express = require('express');
+var router=express.Router();
+router.use('./postdata',function(req,res)
+{
+res.send(req.firstname+" "+req.lastname+"is the creator of Node.js")
+})
+module.exports =router;

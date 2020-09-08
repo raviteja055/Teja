@@ -1,0 +1,17 @@
+Sum of multiplse
+
+var totalforfive=0
+var totalforthree=0
+
+for(var temp =0; temp < 1000 ; temp++){
+if(temp % 3 == 0){
+
+    totalforthree += temp;
+}else if(temp % 5 == 0){
+
+    totalforfive += temp;
+}
+
+}
+var result = (+totalforfive ) + (+totalforthree);
+console.log(result);

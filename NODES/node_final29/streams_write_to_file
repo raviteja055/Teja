@@ -1,0 +1,12 @@
+streams write to file
+
+var fs = require("fs");
+var data = 'Simply Easy Learning';
+
+var writerStream = fs.createWriteStream('Big_data.txt');
+
+for( var i=0;i<10^5;i++){
+writerStream.write(data,'UTF8');
+
+}
+writerStream.end();

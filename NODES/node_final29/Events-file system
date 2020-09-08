@@ -1,0 +1,19 @@
+Events- file system
+
+
+var fs = require('fs');
+var dir = './Node_folder';
+fs.mkdirSync(dir);
+fs.writeFile('./Node_folder/sample.txt', 'This is Node.js a powerful backend javascript used very widely in industry for developing web applications.', function (err) {
+if (err) throw err;
+console.log('Saved!');
+});
+
+var fs = require("fs");
+var data = 0;
+var readerStream = fs.createReadStream('./Node-stream-handson/data_file.txt');
+
+readerStream.on('data', function(chunk) {
+data += chunk;
+console.log(chunk.length);
+});

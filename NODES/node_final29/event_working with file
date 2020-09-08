@@ -1,0 +1,7 @@
+Event working with file
+
+var fs=require('fs')
+fs.readFile("./Node-read-handson/To_Read.txt.txt",'utf-8',function(err,data){
+
+console.log(data)
+});

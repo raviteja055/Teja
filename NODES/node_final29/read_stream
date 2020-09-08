@@ -1,0 +1,24 @@
+Streams Reading Files
+
+
+var fs = require('fs');
+var data = 0;
+var readerStream = fs.createReadStream('data.txt');
+readerStream.on('data', function(chunk) {
+data += chunk.length;
+console.log(data);
+}
+
+/*
+var fs = require('fs');
+
+
+var data = 0;
+var readerStream = fs.createReadStream('./Node-stream-handson/data_file.txt');
+
+readerStream.on('data', function(chunk) {
+data += chunk.length;
+console.log(data);
+});
+
+*/

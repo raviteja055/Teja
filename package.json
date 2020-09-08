@@ -1,0 +1,29 @@
+{
+  "name": "react-photo-gallery-with-lightbox",
+  "version": "0.0.0",
+  "homepage": "https://raviteja055.github.io/ravi",
+  "description": "example using react-images Lightbox component",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-images": "0.5.19",
+    "react-photo-gallery": "7.0.1",
+    "react-rich-text-editor": "^2.0.0",
+    "react-richtext": "^1.0.8"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

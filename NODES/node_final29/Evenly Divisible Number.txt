@@ -1,0 +1,18 @@
+function getSmallest(n){
+  var i = n;
+  
+  function checkNo(i){
+    for(var j = 0 ; j <= n ; j++){
+      if( i % j !== 0)
+        return false;
+    }
+    return true;
+  }
+  
+    while(!(checkNo(i))){
+    i += n;
+  }
+return i;
+}
+console.log(getSmallest(20));
+                  
