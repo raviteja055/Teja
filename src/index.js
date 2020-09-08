@@ -3,8 +3,8 @@ import { render } from 'react-dom';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 import "./App.css";
-import Title from './Title';
-import Drag from './Drag'
+// import Title from './Title';
+// import Drag from './Drag'
 const photos = [
   { src: 'https://source.unsplash.com/2ShvY8Lf6l0/800x599', width: 3, height: 3 },
   { src: 'https://source.unsplash.com/Dm-qxdynoEc/800x799', width: 3, height: 3 },
