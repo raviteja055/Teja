@@ -1,6 +1,0 @@
-Streams-file copy
-
-var fs = require("fs");
-var readerStream = fs.createReadStream('./Node-stream-handson/data_file.txt');
-var writerStream = fs.createWriteStream('new_data_file.txt');
-readerStream.pipe(writerStream)

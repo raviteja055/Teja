@@ -1,6 +1,0 @@
-function display()
-{
-  console.log("TCS")
-}
-var s=setInterval(display,2000);
-  clearInterval(s,10000);
